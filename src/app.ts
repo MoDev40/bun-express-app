@@ -7,7 +7,7 @@ app.use(express.json());
 app.get('/', (_req:Request, res:Response) => {
   const date = new Date();
   return res.json({
-    message: 'Hello World',
+    message: 'Hello World,Deployment works',
     date: date.toISOString(),
   });
 });
